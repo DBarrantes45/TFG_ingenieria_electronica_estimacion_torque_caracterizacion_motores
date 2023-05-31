@@ -34,7 +34,8 @@ Esta carpeta contiene los archivos relacionados con la estimación del torque de
 - `prueba_vacio.m`: Función para calcular la reactancia de magnetización, el error de potencia y la resistencia del núcleo basándose en mediciones y parámetros predefinidos en la prueba en vacío.
 - `relaciones_de_potencia.m`: Script para validar el circuito equivalente desarrollado mediante relaciones de potencia comparando la potencia estimada con los datos del fabricante.
 
-#LabVIEW
+# LabVIEW
+
 Esta carpeta contiene script en LabVIEW utilizados para la recolección de datos y monitoreo en tiempo real de variables de interés como velocidad, voltaje y corriente, además de la estimación indirecta del torque.
 
 # Uso
