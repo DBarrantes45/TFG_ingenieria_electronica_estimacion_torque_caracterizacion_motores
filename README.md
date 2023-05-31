@@ -36,7 +36,13 @@ Esta carpeta contiene los archivos relacionados con la estimación del torque de
 
 # LabVIEW
 
-Esta carpeta contiene script en LabVIEW utilizados para la recolección de datos y monitoreo en tiempo real de variables de interés como velocidad, voltaje y corriente, además de la estimación indirecta del torque.
+Esta carpeta contiene script en LabVIEW utilizados para la recolección de datos y monitoreo en tiempo real de variables de interés como velocidad, voltaje y corriente, además de la estimación indirecta del torque. Es importante mencionar que la version utilizada en estos scripts fue la versión 2019 de LabVIEW.
+
+## Contenido
+
+- `monitorización de variables.vi`: Script que se utilizó para la monitorización de las variables de interés como la velocidad, corriente y tensión, así mismo, hace una aproximacion del torque inducido por ambos motores, así como el controlautomático para la conexión y desconexión de cargas eléctricas.
+- `PID`: Script para el control lineal PID utilizado para el control de la velocidad de operación de la planta.
+- `Archivos varios`: Así mismo, esta carpeta contiene archivos varios que son dependencias de los archivos principales, así como archivos de prueba.
 
 # Uso
 
