@@ -46,7 +46,7 @@ Esta carpeta contiene script en LabVIEW utilizados para la recolección de datos
 
 # Uso
 
-1. Instala MATLAB en tu computadora.
+1. Instala MATLAB y LabVIEW `version 2019` en tu computadora.
 2. Clona este repositorio: `git clone https://github.com/DBarrantes45/TFG_ingenieria_electronica_estimacion_torque_caracterizacion_motores.git`.
 3. Ejecuta el script deseado o llama a las funciones específicas según sea necesario.
 
