@@ -40,9 +40,14 @@ Esta carpeta contiene script en LabVIEW utilizados para la recolección de datos
 
 ## Contenido
 
-- `monitorización de variables.vi`: Script que se utilizó para la monitorización de las variables de interés como la velocidad, corriente y tensión, así mismo, hace una aproximacion del torque inducido por ambos motores, así como el controlautomático para la conexión y desconexión de cargas eléctricas.
-- `PID`: Script para el control lineal PID utilizado para el control de la velocidad de operación de la planta.
-- `Archivos varios`: Así mismo, esta carpeta contiene archivos varios que son dependencias de los archivos principales, así como archivos de prueba.
+- `Monitorización de variables.vi`: Script que se utilizó para la monitorización de las variables de interés como la velocidad, corriente y tensión, así mismo, hace una aproximacion del torque inducido por ambos motores, así como el controlautomático para la conexión y desconexión de cargas eléctricas.
+- `ControladorPIDparaVelocidad.vi`: Script para el control lineal PID utilizado para el control de la velocidad de operación de la planta.
+- `ControladorPIDparaSEIG.vi`: Script utilizado para controlar el comportamiento del generador de inducción autoexcitado.
+- `Modbus_writing.vi`: Archivo para controlar el motor primario por medio del VFD a través del protocolo modbus.
+- `Velocidad_rpm.vi`: Script que se utiliza para hacer la conversión y lectura de la velocidad en rpm.
+- `Corriente_rms.vi`: Archivo para calcular la corriente rms generado a la salida del sistema.
+- `Voltaje_rms`: Archivo para calcular el voltaje rms generado a la salida del sistema.
+- `Estimador del torque subVI.vi`: Archivo para calcular el torque inducido por los motores eléctricos de inducción.
 
 # Uso
 
